@@ -1,0 +1,70 @@
+@import "typography";
+@import "global";
+@import "variables";
+
+#portfolio-section {
+    padding: 120px 0px 60px;
+    text-align: center;
+
+    .section-heading {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .portfolios {
+        margin: 69px 0px 73px;
+    }
+
+    .row {
+        margin: 0;
+
+        &>* {
+            padding: 0;
+        }
+
+        .single-portfolio {
+            position: relative;
+            transition: all .4s ease;
+
+            .view-icon {
+                position: absolute;
+                z-index: 2;
+                font-size: 50px;
+                top: 40%;
+                left: 40%;
+                display: none;
+                color: #fff;
+            }
+
+            .view-icon:hover {
+                color : $color-3;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                background: #000;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: .6;
+                display: none;
+                transition: all .4s ease;
+            }
+
+            &:hover {
+                
+                .view-icon {
+                    display: block;
+                }
+
+                &::after {
+                    display: block;
+                }
+            }
+        }
+    }
+
+}

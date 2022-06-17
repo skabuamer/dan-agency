@@ -1,0 +1,8 @@
+$color-1 : #26126B;
+$color-2 : #313596;
+$color-3 : #636060;
+
+%theme-gradient {
+    background: linear-gradient(to right, $color-1, $color-2)
+  }
+  

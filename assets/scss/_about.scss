@@ -1,0 +1,11 @@
+@import "typography";
+@import "global";
+@import "variables";
+
+#about-section {
+    padding: 60px 0px 120px;
+
+    img {
+        max-width: 740px;
+    }
+}
