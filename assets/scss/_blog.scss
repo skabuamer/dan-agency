@@ -1,0 +1,71 @@
+@import "typography";
+@import "global";
+@import "variables";
+
+#blog-section {
+    padding: 60px 0px;
+    text-align: center;
+
+    .section-heading {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .single-blog {
+        text-align: left;
+        position: relative;
+        transition: all .4s ease;
+
+        &::after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 44%;
+            content: '';
+            background: #000;
+            opacity: 0.4;
+            display: none;
+        }
+
+        &:hover {
+            &::after {
+                display: block;
+            }
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .blog-content {
+            border: 1px solid #EBEBEB;
+            border-top: 0;
+            padding: 20px;
+            
+
+            h3 {
+                line-height: 34px;
+                color: $color-3;
+            }
+
+            .blog-info {
+                text-transform: capitalize;
+                margin-bottom: 15px;
+                color: $color-3;
+            }
+
+            a {
+                text-transform: capitalize;
+                font-weight: 700;
+                color: $color-3;
+            }
+
+            &:hover {
+                h3, a {
+                    color: $color-1;
+                }
+            }
+        }
+    }
+}

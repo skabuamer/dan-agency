@@ -1,0 +1,17 @@
+@import "typography";
+@import "global";
+@import "variables";
+
+#request-section {
+    padding: 60px 0px 120px;
+
+    .request {
+        border-radius: 20px;
+        box-shadow: 0px 24px 43px 0px rgba(49, 53, 150, 0.09);
+        padding: 35px 65px;
+
+        .section-heading p {
+            margin-bottom: 0px;
+        }
+    }
+}

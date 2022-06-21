@@ -2,5 +2,39 @@
 @import "global";
 
 header {
+    padding: 35px 0px;
     background-color: $color-1;
+
+    // .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    //     color: #A9A1A1;
+    // }
+
+    .navbar-nav {
+        .nav-link {
+            color: #fff;
+            margin-left: 16px;
+    
+            &:hover {
+                color: #A9A1A1;
+            }
+    
+            &.active {
+                color: #A9A1A1;
+            }
+        }
+    }
+}
+
+.header-banner-bg {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-image: url(../img/banner-bg.png);
+    }
 }

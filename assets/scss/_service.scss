@@ -28,6 +28,10 @@
         &:hover {
             background-image: linear-gradient(#4245a9, #26136c);
 
+            img {
+                filter: brightness(100) contrast(1);
+            }
+
             h3, p{
                 color: #fff;
             }
