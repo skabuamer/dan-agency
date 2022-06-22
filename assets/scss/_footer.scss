@@ -1,7 +1,9 @@
-@import "typography";
-@import "global";
-@import "variables";
+// @import "typography";
+// @import "global";
+// @import "variables";
+// @import "breakpoints";
 
+/*--------------------------------------------- FOOTER SECTION STYLES --------------------------------------- */ 
 
 footer {
     @extend %theme-gradient;

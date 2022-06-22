@@ -1,5 +1,7 @@
-@import "typography";
-@import "global";
+// @import "typography";
+// @import "global";
+
+/*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */ 
 
 header {
     padding: 35px 0px;
@@ -8,6 +10,10 @@ header {
     // .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     //     color: #A9A1A1;
     // }
+    .offcanvas {
+        background-color: $color-1;
+        width: 40%;
+    }
 
     .navbar-nav {
         .nav-link {

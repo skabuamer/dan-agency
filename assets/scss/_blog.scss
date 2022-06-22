@@ -1,6 +1,9 @@
-@import "typography";
-@import "global";
-@import "variables";
+// @import "typography";
+// @import "global";
+// @import "variables";
+@import "breakpoints";
+
+/*--------------------------------------------- BLOG SECTION STYLES --------------------------------------- */ 
 
 #blog-section {
     padding: 60px 0px;
@@ -9,6 +12,8 @@
     .section-heading {
         width: 50%;
         margin: 0 auto;
+
+        
     }
 
     .single-blog {

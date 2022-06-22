@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
 #counter-section, footer {
   background: linear-gradient(to right, #26126B, #313596);
 }
@@ -111,111 +101,15 @@ button:focus, button:hover {
   margin-bottom: 56px;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
+/*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */
 header {
   padding: 35px 0px;
   background-color: #26126B;
+}
+
+header .offcanvas {
+  background-color: #26126B;
+  width: 40%;
 }
 
 header .navbar-nav .nav-link {
@@ -245,108 +139,7 @@ header .navbar-nav .nav-link.active {
   background-image: url(../img/banner-bg.png);
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
+/*--------------------------------------------- BANNER SECTION STYLES --------------------------------------- */
 #banner-section {
   background-color: #26126B;
   padding: 35px 0px 105px;
@@ -356,9 +149,24 @@ p {
   margin-bottom: 34px;
 }
 
+@media screen and (max-width: 767px) {
+  #banner-section h1 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+
 #banner-section p {
   color: #fefefe;
   margin-bottom: 57px;
+}
+
+@media screen and (max-width: 767px) {
+  #banner-section p {
+    margin-bottom: 40px;
+  }
 }
 
 #banner-section .btn-custom {
@@ -371,116 +179,17 @@ p {
   color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  #banner-section img {
+    width: 70%;
+  }
+}
+
 #banner-section .carousel-indicators {
   bottom: -80px;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- SERVICE SECTION STYLES --------------------------------------- */
 #service-section {
   padding: 120px 0px 60px;
 }
@@ -518,112 +227,7 @@ button:focus, button:hover {
   color: #fff;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- ABOUT SECTION STYLES --------------------------------------- */
 #about-section {
   padding: 60px 0px 120px;
 }
@@ -632,112 +236,7 @@ button:focus, button:hover {
   max-width: 740px;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- COUNTER SECTION STYLES --------------------------------------- */
 #counter-section {
   padding: 123px 0px 97px;
   position: relative;
@@ -771,112 +270,7 @@ button:focus, button:hover {
   text-transform: capitalize;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- PORTFOLIO SECTION STYLES --------------------------------------- */
 #portfolio-section {
   padding: 120px 0px 60px;
   text-align: center;
@@ -939,112 +333,7 @@ button:focus, button:hover {
   display: block;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- CLIENT SECTION STYLES --------------------------------------- */
 #client-section {
   text-align: center;
   padding: 60px 0px;
@@ -1066,112 +355,7 @@ button:focus, button:hover {
   background-color: #F5F5F5;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- BLOG SECTION STYLES --------------------------------------- */
 #blog-section {
   padding: 60px 0px;
   text-align: center;
@@ -1235,112 +419,7 @@ button:focus, button:hover {
   color: #26126B;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- REQUEST SECTION STYLES --------------------------------------- */
 #request-section {
   padding: 60px 0px 120px;
 }
@@ -1355,112 +434,7 @@ button:focus, button:hover {
   margin-bottom: 0px;
 }
 
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'open Sans', sans-serif;
-  font-weight: 700;
-  color: #26126B;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  line-height: 80px;
-  color: #fff;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 60px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 20;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  color: #636060;
-  margin-bottom: 10px;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit;
-}
-
-a {
-  transition: all .4s ease;
-  text-decoration: none;
-}
-
-a:hover, a:focus, a:visited {
-  outline: none;
-}
-
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button:focus, button:hover {
-  outline: none;
-}
-
-.btn-custom {
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #313596;
-  color: #fff;
-  line-height: 43px;
-  height: 45px;
-  padding: 0px 30px;
-  text-transform: capitalize;
-  display: inline-block;
-  border: 1px solid transparent;
-}
-
-.btn-custom:hover {
-  background-color: #fff;
-  color: #313596;
-  border: 1px solid #2B2828;
-}
-
-.section-heading h2 {
-  color: #26126B;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
-}
-
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
-
+/*--------------------------------------------- FOOTER SECTION STYLES --------------------------------------- */
 footer {
   padding: 100px 0px;
   position: relative;
