@@ -145,6 +145,12 @@ header .navbar-nav .nav-link.active {
   padding: 35px 0px 105px;
 }
 
+@media screen and (max-width: 575px) {
+  #banner-section {
+    padding-bottom: 60px;
+  }
+}
+
 #banner-section h1 {
   margin-bottom: 34px;
 }
@@ -155,6 +161,13 @@ header .navbar-nav .nav-link.active {
     line-height: 70px;
     margin-top: 20px;
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #banner-section h1 {
+    font-size: 40px;
+    line-height: 55px;
   }
 }
 
@@ -187,6 +200,12 @@ header .navbar-nav .nav-link.active {
 
 #banner-section .carousel-indicators {
   bottom: -80px;
+}
+
+@media screen and (max-width: 575px) {
+  #banner-section .carousel-indicators {
+    bottom: -55px;
+  }
 }
 
 /*--------------------------------------------- SERVICE SECTION STYLES --------------------------------------- */
