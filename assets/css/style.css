@@ -91,14 +91,14 @@ button:focus, button:hover {
   border: 1px solid #2B2828;
 }
 
+.section-heading {
+  margin-bottom: 56px;
+}
+
 .section-heading h2 {
   color: #26126B;
   margin-bottom: 20px;
   text-transform: capitalize;
-}
-
-.section-heading p {
-  margin-bottom: 56px;
 }
 
 /*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */
@@ -213,12 +213,64 @@ header .navbar-nav .nav-link.active {
   padding: 120px 0px 60px;
 }
 
+@media screen and (max-width: 991px) {
+  #service-section {
+    padding: 60px 0px 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #service-section .section-heading {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #service-section .section-heading {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #service-section .section-heading {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #service-section .section-heading h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #service-section .section-heading h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #service-section .section-heading p {
+    margin-bottom: 20px;
+  }
+}
+
 #service-section .single-service {
   border: 1px solid #E9E7F0;
   border-radius: 8px;
-  padding: 52px 25px;
+  padding: 50px 25px;
   text-align: center;
   transition: all .6s ease;
+}
+
+@media screen and (max-width: 479px) {
+  #service-section .single-service {
+    padding: 25px 15px;
+  }
 }
 
 #service-section .single-service img {
@@ -232,6 +284,13 @@ header .navbar-nav .nav-link.active {
   color: #2B2828;
   font-weight: 600;
   margin-bottom: 7px;
+}
+
+@media screen and (max-width: 479px) {
+  #service-section .single-service h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 #service-section .single-service:hover {

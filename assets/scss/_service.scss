@@ -1,18 +1,61 @@
 // @import "typography";
 // @import "global";
 // @import "variables";
+// @import "_breakpoints";
 
 /*--------------------------------------------- SERVICE SECTION STYLES --------------------------------------- */ 
 
 #service-section {
     padding: 120px 0px 60px;
 
+    @include md {
+        padding: 60px 0px 40px;
+    }
+
+    .section-heading {
+        @include md {
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        @include xs {
+            width: 90%;
+        }
+
+        @include xxs {
+            width: 100%;
+        }
+
+        h2{       
+            @include md {
+                margin-bottom: 10px;
+            }
+
+            @include xxs {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+
+        p{
+            @include md {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
     .single-service {
         border: 1px solid #E9E7F0;
         border-radius: 8px;
-        padding: 52px 25px;
+        padding: 50px 25px;
         text-align: center;
         transition: all .6s ease;
+
+        @include xxs {
+            padding: 25px 15px;
+        }
 
         img {
             width: 88px;
@@ -25,6 +68,11 @@
             color: #2B2828;
             font-weight: 600;
             margin-bottom: 7px;
+
+            @include xxs {
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
 
         &:hover {

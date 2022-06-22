@@ -47,13 +47,10 @@ button {
 }
 
 .section-heading {
+    margin-bottom: 56px;
     h2 {
         color: $color-1;
         margin-bottom: 20px;
         text-transform: capitalize;
-    }
-
-    p {
-        margin-bottom: 56px;
     }
 }
