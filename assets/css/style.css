@@ -603,7 +603,7 @@ header .navbar-nav .nav-link.active {
 
 #blog-section .single-blog {
   text-align: left;
-  background-color: #ccc;
+  background-color: #fff;
   border: 1px solid #EBEBEB;
   border-radius: 10px;
   position: relative;
@@ -711,6 +711,19 @@ header .navbar-nav .nav-link.active {
 footer {
   padding: 100px 0px;
   position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+  footer {
+    padding: 60px 0px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  footer {
+    padding: 35px 10px;
+  }
 }
 
 footer::after {
@@ -721,22 +734,41 @@ footer::after {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
-footer img {
-  max-width: 253px;
+footer .footer-heading {
+  margin-bottom: 30px;
+}
+
+footer .footer-heading img {
+  max-width: 100%;
+  width: 253px;
   margin-bottom: 27px;
 }
 
-footer p {
+footer .footer-heading p {
   color: #fff;
+}
+
+@media screen and (max-width: 479px) {
+  footer .col-xxs {
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
 
 footer h3 {
   text-transform: uppercase;
   color: #fff;
   line-height: 34px;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 479px) {
+  footer h3 {
+    margin-bottom: 15px;
+  }
 }
 
 footer li {
