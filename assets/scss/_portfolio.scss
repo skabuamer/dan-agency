@@ -8,14 +8,46 @@
     padding: 120px 0px 60px;
     text-align: center;
 
+    @include md {
+        padding: 80px 0px 40px;
+    }
+    @include sm {
+        padding: 60px 0px;
+    }
+
     .section-heading {
         width: 50%;
         margin: 0 auto;
 
+        @include md {
+            width: 70%;
+        }
+        
+        @include sm {
+            width: 80%;
+        }
+
+        @include xs {
+            width: 90%;
+        }
+
+        h2 {
+            @include xs {
+                font-size: 30px;
+                line-height: 40px;
+                margin-bottom: 10px;
+            }
+        }
+
     }
 
     .portfolios {
-        margin: 69px 0px 73px;
+        margin: 70px 0px;
+
+        @include md {
+            margin: 45px 0px;
+        }
+
     }
 
     .row {
