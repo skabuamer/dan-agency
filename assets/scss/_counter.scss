@@ -8,6 +8,15 @@
     @extend %theme-gradient;
     padding: 123px 0px 97px;
     position: relative;
+    z-index: 1;
+
+    @include md{
+        padding: 80px 0px;
+    }
+
+    @include xs{
+        padding: 60px 0px;
+    }
 
     &::before {
         content: '';
@@ -19,17 +28,23 @@
         left: 0;
         width: 100%;
         height: 100%;
+        z-index: -1;
     }
     
 
     .counter-container {
         text-align: center;
+
+        @include md{
+            margin-bottom: 20px;
+        }
         
         span {
             color: #fff;
             font-size: 60px;
             font-weight: 600;
-            line-height: 28px;
+            line-height: 70px;
+            display: inline-block;
         }
     
         h3 {
