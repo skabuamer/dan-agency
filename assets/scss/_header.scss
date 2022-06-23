@@ -1,31 +1,75 @@
-// @import "typography";
-// @import "global";
+@import "breakpoints";
 
 /*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */ 
 
 header {
-    padding: 35px 0px;
+    padding: 30px 0px;
     background-color: $color-1;
 
+    @include sm {
+        padding: 25px 0px;
+    }
     // .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     //     color: #A9A1A1;
     // }
-    .offcanvas {
+    .logo {
+        img {
+            width: 253px;
+        }
+    }
+    .btn-custom {
+        @include md {
+            font-size: 25px;
+            line-height: 25px;
+            padding: 0px 15px;
+            height: 45px;
+        }
+         @include xs {
+            font-size: 20px;
+            line-height: 20px;
+            padding: 0px 10px;
+            height: 35px; 
+         }  
+    }
+    .offcanvas.offcanvas-start {
         background-color: $color-1;
-        width: 40%;
+        width: 50%;
+
+        @include sm {
+            width: 60%;
+        }
+
+        @include xs {
+            width: 70%;
+        }
     }
 
-    .navbar-nav {
-        .nav-link {
+    .offcanvas-header {
+        padding: 16px 10px;
+        img {
+            width: 70%;
+        }
+
+        .btn-custom {
             color: #fff;
-            margin-left: 16px;
-    
-            &:hover {
-                color: #A9A1A1;
-            }
-    
-            &.active {
-                color: #A9A1A1;
+            background: $color-1;
+        }
+    }
+
+    .navbar {
+        padding: 0px;
+        .navbar-nav {
+            .nav-link {
+                color: #fff;
+                margin-left: 16px;
+        
+                &:hover {
+                    color: #A9A1A1;
+                }
+        
+                &.active {
+                    color: #A9A1A1;
+                }
             }
         }
     }

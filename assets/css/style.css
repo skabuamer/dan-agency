@@ -1,3 +1,4 @@
+/*-----------------------------------------------Typography-----------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
 #counter-section, footer {
   background: linear-gradient(to right, #26126B, #313596);
@@ -49,6 +50,7 @@ p {
   margin-bottom: 10px;
 }
 
+/*-----------------------------------------------GLOBAL STYLES-------------------------------------------------*/
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
 }
@@ -103,25 +105,82 @@ button:focus, button:hover {
 
 /*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */
 header {
-  padding: 35px 0px;
+  padding: 30px 0px;
   background-color: #26126B;
 }
 
-header .offcanvas {
-  background-color: #26126B;
-  width: 40%;
+@media screen and (max-width: 767px) {
+  header {
+    padding: 25px 0px;
+  }
 }
 
-header .navbar-nav .nav-link {
+header .logo img {
+  width: 253px;
+}
+
+@media screen and (max-width: 991px) {
+  header .btn-custom {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0px 15px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header .btn-custom {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0px 10px;
+    height: 35px;
+  }
+}
+
+header .offcanvas.offcanvas-start {
+  background-color: #26126B;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  header .offcanvas.offcanvas-start {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header .offcanvas.offcanvas-start {
+    width: 70%;
+  }
+}
+
+header .offcanvas-header {
+  padding: 16px 10px;
+}
+
+header .offcanvas-header img {
+  width: 70%;
+}
+
+header .offcanvas-header .btn-custom {
+  color: #fff;
+  background: #26126B;
+}
+
+header .navbar {
+  padding: 0px;
+}
+
+header .navbar .navbar-nav .nav-link {
   color: #fff;
   margin-left: 16px;
 }
 
-header .navbar-nav .nav-link:hover {
+header .navbar .navbar-nav .nav-link:hover {
   color: #A9A1A1;
 }
 
-header .navbar-nav .nav-link.active {
+header .navbar .navbar-nav .nav-link.active {
   color: #A9A1A1;
 }
 
@@ -782,5 +841,9 @@ footer li svg {
 
 footer li a {
   color: #fff;
+}
+
+#counter-section, footer {
+  background: linear-gradient(to right, #26126B, #313596);
 }
 /*# sourceMappingURL=style.css.map */
