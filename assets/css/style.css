@@ -1,8 +1,5 @@
 /*-----------------------------------------------Typography-----------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
-#counter-section, footer {
-  background: linear-gradient(to right, #26126B, #313596);
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'open Sans', sans-serif;
@@ -117,6 +114,11 @@ header {
 
 header .logo img {
   width: 253px;
+}
+
+header .btn-custom {
+  color: #26126B;
+  background: #fff;
 }
 
 @media screen and (max-width: 991px) {

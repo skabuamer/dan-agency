@@ -9,15 +9,17 @@ header {
     @include sm {
         padding: 25px 0px;
     }
-    // .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    //     color: #A9A1A1;
-    // }
+    
     .logo {
+        z-index: 2;
         img {
             width: 253px;
         }
     }
     .btn-custom {
+        color: $color-1;
+        background: #fff;
+
         @include md {
             font-size: 25px;
             line-height: 25px;
