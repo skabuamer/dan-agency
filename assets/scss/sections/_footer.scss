@@ -1,8 +1,8 @@
-/*--------------------------------------------- FOOTER SECTION STYLES --------------------------------------- */ 
+/*--------------------------------------------- FOOTER SECTION STYLES --------------------------------------- */
 
 footer {
-    @extend %theme-gradient;
-    padding : 100px 0px;
+    @include theme-gradient;
+    padding: 100px 0px;
     position: relative;
     z-index: 1;
 
@@ -16,7 +16,7 @@ footer {
 
     &::after {
         position: absolute;
-        content: '';
+        content: "";
         background: url(../img/banner-bg.png);
         top: 0;
         left: 0;
@@ -27,8 +27,6 @@ footer {
 
     .footer-heading {
         margin-bottom: 30px;
-
-        
 
         img {
             max-width: 100%;
@@ -61,7 +59,7 @@ footer {
     li {
         margin-bottom: 12px;
 
-        svg {
+        i {
             margin-right: 13px;
             color: #fff;
         }

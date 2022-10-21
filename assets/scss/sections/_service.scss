@@ -1,5 +1,4 @@
-
-/*--------------------------------------------- SERVICE SECTION STYLES --------------------------------------- */ 
+/*--------------------------------------------- SERVICE SECTION STYLES --------------------------------------- */
 
 #service-section {
     padding: 120px 0px 60px;
@@ -24,18 +23,13 @@
             width: 100%;
         }
 
-        h2{       
+        h2 {
             @include md {
                 margin-bottom: 10px;
             }
-
-            @include xxs {
-                font-size: 30px;
-                line-height: 40px;
-            }
         }
 
-        p{
+        p {
             @include md {
                 margin-bottom: 20px;
             }
@@ -43,11 +37,12 @@
     }
 
     .single-service {
-        border: 1px solid #E9E7F0;
+        border: 1px solid #e9e7f0;
         border-radius: 8px;
         padding: 50px 25px;
         text-align: center;
-        transition: all .6s ease;
+        transition: all 0.6s ease;
+        position: relative;
 
         @include xxs {
             padding: 25px 15px;
@@ -57,28 +52,41 @@
             width: 88px;
             color: $color-1;
             margin-bottom: 13px;
+            transition: all 0.4s ease;
         }
 
         h3 {
             text-transform: capitalize;
-            color: #2B2828;
+            color: #2b2828;
             font-weight: 600;
             margin-bottom: 7px;
+        }
 
-            @include xxs {
-                font-size: 20px;
-                line-height: 30px;
-            }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            background-image: linear-gradient(#4245a9, #26136c);
+            z-index: -1;
+            opacity: 0;
+            transition: all 0.4s ease;
         }
 
         &:hover {
-            background-image: linear-gradient(#4245a9, #26136c);
+            &::before {
+                opacity: 1;
+            }
 
             img {
                 filter: brightness(100) contrast(1);
             }
 
-            h3, p{
+            h3,
+            p {
                 color: #fff;
             }
         }

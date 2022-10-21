@@ -1,21 +1,21 @@
-/*--------------------------------------------- COUNTER SECTION STYLES --------------------------------------- */ 
+/*--------------------------------------------- COUNTER SECTION STYLES --------------------------------------- */
 
 #counter-section {
-    @extend %theme-gradient;
+    @include theme-gradient;
     padding: 123px 0px 97px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 
-    @include md{
-        padding: 80px 0px;
+    @include md {
+        padding: 60px 0px;
     }
 
-    @include xs{
+    @include xs {
         padding: 60px 0px;
     }
 
     &::before {
-        content: '';
+        content: "";
         background: url(../img/banner-bg.png);
         background-repeat: no-repeat;
         background-position: center center;
@@ -26,15 +26,14 @@
         height: 100%;
         z-index: -1;
     }
-    
 
     .counter-container {
         text-align: center;
 
-        @include md{
+        @include md {
             margin-bottom: 20px;
         }
-        
+
         span {
             color: #fff;
             font-size: 60px;
@@ -42,7 +41,7 @@
             line-height: 70px;
             display: inline-block;
         }
-    
+
         h3 {
             color: #fff;
             text-transform: capitalize;

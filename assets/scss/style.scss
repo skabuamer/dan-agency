@@ -1,14 +1,35 @@
-@import "typography";
-@import "global";
-@import "header";
-@import "banner";
-@import "service";
-@import "about";
-@import "counter";
-@import "portfolio";
-@import "client";
-@import "blog";
-@import "request";
-@import "footer";
-@import "breakpoints";
-@import "variables";
+/* 
+Master Stylesheet
+----------------------
+Template Name : 
+Description : 
+Author Name : Shaikh Abu Amer
+Author URL : 
+Version : 1.0
+Table of Content
+-----------------------
+1. Typography 
+2. Navigation 
+3.
+4.
+5.
+6.
+*/
+
+@import "main/breakpoints";
+@import "main/variables";
+@import "main/mixin";
+@import "main/normalize";
+@import "main/typography";
+@import "main/global";
+
+@import "sections/header";
+@import "sections/banner";
+@import "sections/service";
+@import "sections/about";
+@import "sections/counter";
+@import "sections/portfolio";
+@import "sections/client";
+@import "sections/blog";
+@import "sections/request";
+@import "sections/footer";

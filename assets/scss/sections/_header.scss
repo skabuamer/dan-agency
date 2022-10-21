@@ -1,15 +1,14 @@
-@import "breakpoints";
-
-/*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */ 
+/*--------------------------------------------- HEADER SECTION STYLES --------------------------------------- */
 
 header {
     padding: 30px 0px;
     background-color: $color-1;
+    transition: all 0.4s ease;
 
     @include sm {
         padding: 25px 0px;
     }
-    
+
     .logo {
         z-index: 2;
         img {
@@ -26,12 +25,12 @@ header {
             padding: 0px 15px;
             height: 45px;
         }
-         @include xs {
+        @include xs {
             font-size: 20px;
             line-height: 20px;
             padding: 0px 10px;
-            height: 35px; 
-         }  
+            height: 35px;
+        }
     }
     .offcanvas.offcanvas-start {
         background-color: $color-1;
@@ -64,29 +63,24 @@ header {
             .nav-link {
                 color: #fff;
                 margin-left: 16px;
-        
+
                 &:hover {
-                    color: #A9A1A1;
+                    color: #a9a1a1;
                 }
-        
+
                 &.active {
-                    color: #A9A1A1;
+                    color: #a9a1a1;
                 }
             }
         }
     }
 }
 
-.header-banner-bg {
-    position: relative;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 60%;
-        height: 100%;
-        background-image: url(../img/banner-bg.png);
-    }
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+    padding: 15px 0;
+    box-shadow: 0 0 25px rgb(0 0 0 / 50%);
 }

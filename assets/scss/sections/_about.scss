@@ -1,8 +1,8 @@
-
-/*--------------------------------------------- ABOUT SECTION STYLES --------------------------------------- */ 
+/*--------------------------------------------- ABOUT SECTION STYLES --------------------------------------- */
 
 #about-section {
     padding: 60px 0px 120px;
+
     @include md {
         padding: 40px 0px 30px;
     }
@@ -10,7 +10,7 @@
     img {
         max-width: 740px;
 
-        @include sm{
+        @include sm {
             max-width: 100%;
         }
     }
