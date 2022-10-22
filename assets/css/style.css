@@ -677,16 +677,18 @@ header .navbar .navbar-nav .nav-link.active {
   top: 25px;
   right: 25px;
   color: #fff;
-  font-size: 70px;
+  font-size: 45px;
   line-height: 35px;
   cursor: pointer;
   transition: all 0.4s ease;
-  background: #313596;
-  height: 50px;
-  border-radius: 6px;
+  height: 45px;
+  width: 45px;
+  font-weight: 300;
+  background: #919191;
+  border-radius: 50%;
 }
 #portfolio-section .popup-img-container span:hover {
-  color: #636060;
+  color: #000;
 }
 @media screen and (max-width: 575px) {
   #portfolio-section .popup-img-container span {
@@ -696,9 +698,9 @@ header .navbar .navbar-nav .nav-link.active {
 }
 @media screen and (max-width: 479px) {
   #portfolio-section .popup-img-container span {
-    font-size: 50px;
     line-height: 25px;
     height: 35px;
+    width: 35px;
   }
 }
 

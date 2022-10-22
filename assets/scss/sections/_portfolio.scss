@@ -112,16 +112,18 @@
             top: 25px;
             right: 25px;
             color: #fff;
-            font-size: 70px;
+            font-size: 45px;
             line-height: 35px;
             cursor: pointer;
             transition: all 0.4s ease;
-            background: $color-2;
-            height: 50px;
-            border-radius: 6px;
+            height: 45px;
+            width: 45px;
+            font-weight: 300;
+            background: #919191;
+            border-radius: 50%;
 
             &:hover {
-                color: $color-3;
+                color: #000;
             }
 
             @include xs {
@@ -130,9 +132,9 @@
             }
 
             @include xxs {
-                font-size: 50px;
                 line-height: 25px;
                 height: 35px;
+                width: 35px;
             }
         }
     }
